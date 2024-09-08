@@ -36,6 +36,7 @@
 <p align="center">
   <a href="#description">Description</a> •
   <a href="#installation">Installation</a> •
+  <a href="#examples">Examples</a> •
   <a href="#changelog">Changelog</a> •
   <a href="#author">Author</a> •
   <a href="#license">License</a> •
@@ -50,6 +51,11 @@ A module that provides a promise interface to interact with Apple's JXA (JavaScr
 
 ```bash
 npm install --save macos-jxa
+```
+
+## Examples
+
+```js
 ```
 
 ## Changelog
