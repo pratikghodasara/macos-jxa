@@ -1,0 +1,29 @@
+{
+    "name": "macos-jxa",
+    "version": "0.0.0",
+    "description": "Interact with Apple's JXA (JavaScript for Automation) from Node.js",
+    "author": "Pratik Ghodasara",
+    "license": "MIT",
+    "homepage": "https://github.com/pratikghodasara/macos-jxa",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pratikghodasara/macos-jxa.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pratikghodasara/macos-jxa/issues"
+    },
+    "engines": {
+        "node": "18.20.4"
+    },
+    "main": "index.js",
+    "scripts": {
+        "example": "node scripts/example.js"
+    },
+    "keywords": [
+        "jxa",
+        "osa",
+        "javascript",
+        "applescript",
+        "automation"
+    ]
+}
