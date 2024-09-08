@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 1.0.0 - 2024.09.09
+
 ### Added
   - Setting up the Project ([#1](https://github.com/pratikghodasara/macos-jxa/pull/1))
     - Added Repository files ([da34711](https://github.com/pratikghodasara/macos-jxa/commit/da34711))

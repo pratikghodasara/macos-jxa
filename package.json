@@ -1,6 +1,6 @@
 {
     "name": "macos-jxa",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Interact with Apple's JXA (JavaScript for Automation) from Node.js",
     "author": "Pratik Ghodasara",
     "license": "MIT",
