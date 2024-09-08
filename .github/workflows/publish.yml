@@ -1,0 +1,26 @@
+name: Publish
+on:
+  workflow_dispatch:
+  release:
+      types: [published]
+
+jobs:
+  verify:
+    name: Publish Package
+    runs-on: ubuntu-latest
+    permissions:
+        contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install Dependencies
+        run: npm install
+      - name: Install Dependencies
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
